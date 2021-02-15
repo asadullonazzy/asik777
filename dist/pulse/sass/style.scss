@@ -1,0 +1,29 @@
+//utils
+@import "utils/bootstrap-grid";
+@import "utils/slick.scss";
+@import "utils/bootstrap-reboot.scss";
+@import "utils/animate.scss";
+// @import 'base/variables';
+@import "base/variables";
+@import "base/animation";
+// *{
+// }
+.container {
+  position: relative;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header.scss";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/titles";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import "blocks/media";
+@import "blocks/modal";
+@import "blocks/pageup";

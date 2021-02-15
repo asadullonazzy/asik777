@@ -1,0 +1,280 @@
+@charset "UTF-8";
+@media (max-width: 1200px) {
+  .menu_item {
+    padding-right: 13px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+
+  .promo_header {
+    font-size: 50px;
+  }
+
+  .reasers_block {
+    align-items: flex-start;
+  }
+  .reasers_descr {
+    width: 300px;
+  }
+  .reasers_item_1 {
+    width: 300px;
+  }
+  .reasers_item_1_2 {
+    width: 300px;
+  }
+  .reasers_item_1_3 {
+    width: 300px;
+  }
+  .reasers_item_1_4 {
+    width: 300px;
+  }
+  .reasers_item_1_5 {
+    width: 300px;
+  }
+  .reasers_item_1_6 {
+    width: 300px;
+  }
+}
+@media (max-width: 991px) {
+  .menu_link {
+    font-size: 9px;
+  }
+  .menu_item {
+    padding-right: 8px;
+  }
+
+  .subheader_logo img {
+    width: 100%;
+  }
+  .subheader_official {
+    font-size: 11px;
+  }
+  .subheader_phone {
+    font-size: 18px;
+  }
+  .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .promo_header {
+    font-size: 40px;
+  }
+  .promo_subheader {
+    font-size: 30px;
+  }
+
+  .reasers_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reasers_descr {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px;
+  }
+  .menu_link {
+    font-size: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 26px;
+    width: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.6s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(1):nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(1):nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  .sx-hidden {
+    display: none;
+  }
+
+  .xs-visible {
+    display: block;
+  }
+  .xs-visible_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .xs-visible_phone_official {
+    display: none;
+  }
+  .xs-visible_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .promo_header {
+    дline-height: 45;
+  }
+  .promo_subheader {
+    font-size: 30px;
+  }
+}
+.choice_icons {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .subtitle_small {
+    display: none;
+    font-size: 0px;
+  }
+
+  nav {
+    height: 30px;
+  }
+  nav .hamburger_active {
+    background: black;
+  }
+
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  .subheader_official {
+    display: none;
+  }
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+    display: none;
+  }
+  .subheader_phone_official {
+    display: none;
+  }
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 9px;
+  }
+
+  .promo {
+    min-height: 400px;
+    padding: 73px 0 35px 0;
+  }
+  .promo_descr {
+    display: none;
+  }
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+    font-size: 16px;
+  }
+  .promo_btn:hover {
+    border-image: linear-gradient(to top, #ff00de 0%, #4ce2ff 100%);
+  }
+
+  .menu {
+    width: 85%;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reasers {
+    padding: 22px 0 36px 0;
+  }
+  .reasers_block {
+    margin-top: 26px;
+  }
+  .class_icons {
+    transform: translate(120%);
+  }
+  .class_blue {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+
+  .choice_icons {
+    width: 100%;
+  }
+
+  .footer_social_them {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer_resource {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

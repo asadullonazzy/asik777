@@ -1,0 +1,101 @@
+@media (max-width: 1200px) {
+  .promo {
+    .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &__contacts {
+        align-items: start;
+      }
+    }
+    &__wrapper {
+      margin-right: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 90px;
+    }
+    &__link {
+      margin-right: 25px;
+    }
+  }
+  .promo .button {
+    margin-right: 20px;
+  }
+  .promo .title {
+    color: #ffffff;
+  }
+}
+@media (max-width: 991px) {
+  .consultation {
+    &__descr {
+      margin-left: 100px;
+    }
+  }
+  .feed-form {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+  .promo {
+    .button {
+      font-size: 10px;
+      width: 150px;
+      height: 40px;
+    }
+    .header {
+      &__official {
+        display: none;
+      }
+    }
+    &__header {
+      font-size: 27px;
+    }
+    &__subheader {
+      font-size: 17px;
+    }
+    &__icons {
+      display: none;
+    }
+  }
+
+  .advantages {
+    &__wrapper {
+      display: block;
+    }
+  }
+
+  .consultation {
+    .title {
+      font-size: 20px;
+    }
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+      &__tab {
+        margin-top: 25px;
+      }
+    }
+  }
+  .catalog-item {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .feedback {
+    display: none;
+  }
+  .slick-dots {
+    display: flex;
+    list-style-type: none;
+  }
+  .footer {
+    &__info {
+      width: 300px;
+      height: 200px;
+    }
+  }
+}
